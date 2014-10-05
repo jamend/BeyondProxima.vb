@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mapdata xmlns="http://www.beyondproxima.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:SchemaLocation="http://www.beyondproxima.com MapData.xsd">
+  <ship speed="" />
+  <map>
+    ﻿
+    <S ID="S4" X="0" Y="0" C="0" />
+    <S ID="S5" X="4" Y="6" C="0" />
+    <S ID="S6" X="2" Y="7" C="0" />
+    <S ID="S7" X="5" Y="2" N="Zergland" C="0" />
+    <S ID="S8" X="9" Y="1" C="0" />
+    <S ID="S9" X="14" Y="9" C="0" />
+    <S ID="S10" X="12" Y="4" C="0" />
+    <S ID="S11" X="8" Y="6" N="Sol" C="0" />
+    <S ID="S12" X="6" Y="10" C="0" />
+    <S ID="S13" X="15" Y="2" C="0" />
+    <F ID="F1" S1="S6" />
+    <F ID="F2" S1="S4" S2="S13" P="60" />
+    <F ID="F3" S1="S7" />
+    <F ID="F4" S1="S4" S2="S8" P="70" />
+    <F ID="F5" S1="S8" />
+    <F ID="F6" S1="S9" S2="S10" P="60" />
+    <F ID="F7" S1="S11" />
+    <F ID="F8" S1="S8" S2="S11" P="30" />
+    <F ID="F9" S1="S4" />
+  </map>
+</mapdata>

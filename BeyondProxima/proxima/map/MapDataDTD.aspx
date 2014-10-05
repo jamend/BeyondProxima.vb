@@ -1,0 +1,21 @@
+<%@ Page Language="VB" AutoEventWireup="false" Inherits="BeyondProxima.proxima_map_MapDataDTD" Codebehind="MapDataDTD.aspx.vb" %>
+
+<!ELEMENT mapdata (ship, map)>
+
+<!ELEMENT ship EMPTY>
+<!ATTLIST ship speed CDATA #REQUIRED>
+
+<!ELEMENT map (#PCDATA|S|F)*>
+
+<!ELEMENT S EMPTY>
+<!ATTLIST S ID ID #REQUIRED>
+<!ATTLIST S X CDATA #REQUIRED>
+<!ATTLIST S Y CDATA #REQUIRED>
+<!ATTLIST S N CDATA #IMPLIED>
+<!ATTLIST S C CDATA #REQUIRED>
+
+<!ELEMENT F EMPTY>
+<!ATTLIST F ID ID #REQUIRED>
+<!ATTLIST F S1 IDREF #REQUIRED>
+<!ATTLIST F S2 IDREF #IMPLIED>
+<!ATTLIST F P CDATA #IMPLIED>

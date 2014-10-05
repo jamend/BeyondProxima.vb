@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.beyondproxima.com" xmlns="http://www.beyondproxima.com" elementFormDefault="qualified">
+  <xs:complexType name="mapdata">
+    <xs:sequence>
+      <xs:element name="ship" type="ship" />
+      <xs:element name="map" type="map" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ship">
+    <xs:attribute name="speed" type="xs:integer" />
+  </xs:complexType>
+  <xs:complexType name="map" mixed="true">
+    <xs:sequence>
+      <xs:element name="F" type="F" />
+      <xs:element name="S" type="S" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="F">
+    <xs:attribute name="ID" type="xs:ID" />
+    <xs:attribute name="S1" type="xs:IDREF" />
+    <xs:attribute name="S2" type="xs:IDREF" />
+    <xs:attribute name="P" type="xs:integer" />
+  </xs:complexType>
+  <xs:complexType name="S">
+    <xs:attribute name="ID" type="xs:ID" />
+    <xs:attribute name="X" type="xs:integer" />
+    <xs:attribute name="Y" type="xs:integer" />
+    <xs:attribute name="N" type="xs:string" />
+    <xs:attribute name="C" type="xs:integer" />
+  </xs:complexType>
+</xs:schema>

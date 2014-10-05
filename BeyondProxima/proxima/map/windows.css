@@ -1,0 +1,53 @@
+﻿.window {
+  background-color: gray;
+  border: 3px solid gray;
+  margin: 0px;
+  position: absolute;
+  text-align: left;
+  visibility: hidden;
+  z-index: 6;
+}
+
+.titleBar {
+  background-color: gray;
+  cursor: default;
+  color: #ffffff;
+  font-family: verdana;
+  font-size: 12pt;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px 0px 0px .5em;
+  text-align: right;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-bottom: 2px solid gray;
+}
+
+.titleBarText {
+  float: left;
+  overflow: hidden;
+  text-align: left;
+  vertical-align: middle;
+  padding-top: 3px;
+}
+
+.titleBarButtons {
+  border-style: none;
+  border-width: 0px;
+  vertical-align: middle;
+  width: 26px;
+  height: 26px;
+  background-color: White;
+  border-left: 2px solid gray;
+}
+
+.clientArea {
+  background-color: #000000;
+  border-width: 0px;
+  color: #ffffff;
+  font-family: verdana;
+  font-size: 10pt;
+  margin: 2px 0px 0px 0px;
+  overflow: auto;
+  padding: .5em;
+}

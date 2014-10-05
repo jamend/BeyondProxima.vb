@@ -1,0 +1,22 @@
+﻿body 
+{
+	font-family: Verdana;
+	font-size: 8pt;
+}
+table
+{
+    border-width: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+    vertical-align: top;
+    text-align: left;
+}
+td
+{
+    padding: 3px;
+}
+.pagetitle 
+{
+	font-size: 14pt;
+	font-weight: bold;
+}
